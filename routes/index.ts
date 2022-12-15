@@ -3,6 +3,6 @@ import cooperationRouter from "./cooperation.router";
 
 const router = express.Router();
 
-router.use("/cooperation", cooperationRouter);
+router.use("", cooperationRouter);
 
 export default router;
